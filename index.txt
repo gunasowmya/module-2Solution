@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+ border :3px solid black;
+ margin:10px;
+ background-color: #999999;
+ padding:10px;
+ }
+ #p1{
+position:relative;
+ float:left;
+ top:20px;
+ left:1px;
+ }
+ #p2{
+position:relative;
+ float:center;
+  top:20px;
+ left:11px;
+ }
+ #p3{
+position:relative;
+ float:right;
+  top:20px;
+ left:21px;
+ }
+Section{
+    width:80px;
+    height:25px;
+    padding:0px;
+    border :2px solid black;
+    float:right;
+ }
+#Section1{
+    background-color: #ff8080;
+    position:relative;
+    top:-13px;
+    left:11px;   
+}
+#Section2{
+    background :#ff4d4d;
+    position:relative;
+    top:-13px;
+    left:11px;    
+}
+#Section3{
+    background :#ffa64d;
+    position:relative;
+    top:-13px;
+    left:11px;  
+}
+@media(min-width:992px)
+{
+#p1{
+width:33.33%
+}
+#p2{
+width:33.33%
+}
+#p3{
+width:33.33%
+}
+}
+@media(min-width:768px)and(max-width:991px)
+{
+#p1{
+width:50%
+}
+#p2{
+width:50%
+}
+#p3{
+width:80%
+}
+}
+@media(min-width:767px)
+{
+   #p1{
+width:33.33%
+}
+#p2{
+width:33.33%
+}
+#p3{
+width:33.33% 
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:Center;">Our Menu </h1>
+<div class=p1>
+ <Section id=Section1>Chicken</Section>
+lorem ipsum dotor sit amet, consectetur
+adipisicing elit,sed do eisumod tempor
+inididunt ut labore et dolore maagna aliqua. Ut
+enim ad minim veniam, quia nostrud exercitation
+uliamco laboris nisi ut aliquip ex ea commodo
+consequat.
+</div>
+<div class=p2>
+ <Section id=Section2>Beef</Section>
+lorem ipsum dotor sit amet, consectetur
+adipisicing elit,sed do eisumod tempor
+inididunt ut labore et dolore maagna aliqua. Ut
+enim ad minim veniam, quia nostrud exercitation
+uliamco laboris nisi ut aliquip ex ea commodo
+consequat.
+</div>
+<div class=p3>
+ <Section id=Section3>Sushi</Section>
+lorem ipsum dotor sit amet, consectetur
+adipisicing elit,sed do eisumod tempor
+inididunt ut labore et dolore maagna aliqua. Ut
+enim ad minim veniam, quia nostrud exercitation
+uliamco laboris nisi ut aliquip ex ea commodo
+consequat.
+</div>
+</body>
+</html>
